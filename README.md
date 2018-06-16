@@ -5,20 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+Team Name: EatUpHub
 
-* System dependencies
+Team Member: Justine Clarke & Walt Panfil 
 
-* Configuration
+Description:
+A ruby and rails website tackling the problem of food insecurity in Indiana and offering features 
+such as community forum and maps with highlighted food pantries in the general vicinity. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...

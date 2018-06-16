@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <%= @dish.name %>
+</h1>
+
+<p>
+  <%= @dish.body %>
+</p>
+
+<p>
+  <strong>Created By: <%= @dish.user.name %></strong>
+</p>
+
+  <% if current_user != @dish.user %> 
+	 <p> <%= link_to 'Back', dishes_path %></p>
+	<%else%>
+	 <p><%= link_to 'Edit', edit_dish_path(@dish) %> |</p>
+	 <%= link_to 'Back', dishes_path %>
+	<%end%>
+

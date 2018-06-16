@@ -1,0 +1,54 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.nav a {
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-size:12px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('https://s3.amazonaws.com/oxfam-us/www/static/media/resized/grow-campaign-rice-farmer-cambodia-ogb-46427_1220x763.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+    
+  background-color: #000;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}

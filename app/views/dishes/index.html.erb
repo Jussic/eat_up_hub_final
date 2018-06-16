@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<style>
+  #style {
+    font-size: 14px;
+  }
+</style>
+
+   <div class="learn-more"> 
+	  <div class="container">
+		<div class = "row">
+	      <div class = "col-md-11">
+<h1>Dishes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entry Name</th>
+      <th> Entry Description</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dishes.each do |dish| %>
+      <tr>
+        <td><%= dish.name %></td>
+        <td><%= dish.body %></td>
+        <td><%= dish.user.name %></td>
+        <td><%= link_to 'Show', dish %></td>
+        <td><%= link_to 'Edit', edit_dish_path(dish) %></td>
+        <td><%= link_to 'Delete', dish, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<div id = "style">
+<%= link_to 'Create New Entry ', new_dish_path %>
+<br> </br>
+
+</div>
+
+</div>
+</div
+</div>
+</div

@@ -1,0 +1,35 @@
+<% provide(:title, 'All users') %>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+</style>
+
+<body>
+<div class = "recipe-guides">
+<div class = "row"> 
+<div class = "col-md-4">
+<h1>All Users</h1>
+
+  <ul class="users">
+  <% @users.each do |user| %>
+    <li>
+        <table>
+        <td> 
+        <tr> <%= link_to user.name, user %>  </tr>
+        <tr> <%= gravatar_for user, size:35 %> </tr>
+        </td>
+        </table>
+    </li>
+    <% end %>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>

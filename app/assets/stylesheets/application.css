@@ -173,12 +173,13 @@ margin:0 auto;
   color: #5a5a5a;
   font-size: 16px;
   font-weight: bold;
-  padding: 18px 15px;
+  padding: 5px 15px;
   text-transform: uppercase;
 }
 
 .nav li {
   display: inline;
+  padding: 100px 0px;
 }
 
 .jumbotron {
